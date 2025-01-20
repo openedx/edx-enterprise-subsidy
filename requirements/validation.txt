@@ -76,7 +76,7 @@ click-log==0.4.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-lint
-code-annotations==2.1.0
+code-annotations==2.2.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -123,7 +123,7 @@ distlib==0.3.9
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   virtualenv
-django==4.2.17
+django==4.2.18
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -429,7 +429,7 @@ mock==5.1.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-more-itertools==10.5.0
+more-itertools==10.6.0
     # via
     #   -r requirements/quality.txt
     #   jaraco-classes
@@ -455,7 +455,7 @@ oauthlib==3.2.2
     #   getsmarter-api-clients
     #   requests-oauthlib
     #   social-auth-core
-openedx-events==9.15.0
+openedx-events==9.15.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -626,7 +626,7 @@ redis==5.2.1
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   openedx-ledger
-referencing==0.35.1
+referencing==0.36.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -654,7 +654,7 @@ requests-toolbelt==1.0.0
     # via
     #   -r requirements/quality.txt
     #   twine
-responses==0.25.5
+responses==0.25.6
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -752,6 +752,7 @@ typing-extensions==4.12.2
     #   django-test-migrations
     #   edx-opaque-keys
     #   faker
+    #   referencing
 uritemplate==4.1.1
     # via
     #   -r requirements/quality.txt
@@ -765,7 +766,7 @@ urllib3==2.2.3
     #   requests
     #   responses
     #   twine
-virtualenv==20.28.1
+virtualenv==20.29.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt

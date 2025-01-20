@@ -48,7 +48,7 @@ click==8.1.8
     #   -r requirements/base.txt
     #   code-annotations
     #   edx-django-utils
-code-annotations==2.1.0
+code-annotations==2.2.0
     # via
     #   -r requirements/base.txt
     #   edx-toggles
@@ -64,7 +64,7 @@ defusedxml==0.8.0rc2
     #   -r requirements/base.txt
     #   python3-openid
     #   social-auth-core
-django==4.2.17
+django==4.2.18
     # via
     #   -r requirements/base.txt
     #   django-clearcache
@@ -264,7 +264,7 @@ oauthlib==3.2.2
     #   getsmarter-api-clients
     #   requests-oauthlib
     #   social-auth-core
-openedx-events==9.15.0
+openedx-events==9.15.2
     # via
     #   -r requirements/base.txt
     #   edx-event-bus-kafka
@@ -338,7 +338,7 @@ redis==5.2.1
     # via
     #   -r requirements/base.txt
     #   openedx-ledger
-referencing==0.35.1
+referencing==0.36.1
     # via
     #   -r requirements/base.txt
     #   jsonschema
@@ -408,6 +408,7 @@ typing-extensions==4.12.2
     #   -r requirements/base.txt
     #   anyio
     #   edx-opaque-keys
+    #   referencing
 uritemplate==4.1.1
     # via
     #   -r requirements/base.txt

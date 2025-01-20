@@ -71,7 +71,7 @@ click-log==0.4.0
     # via
     #   -r requirements/validation.txt
     #   edx-lint
-code-annotations==2.1.0
+code-annotations==2.2.0
     # via
     #   -r requirements/validation.txt
     #   edx-lint
@@ -111,7 +111,7 @@ distlib==0.3.9
     # via
     #   -r requirements/validation.txt
     #   virtualenv
-django==4.2.17
+django==4.2.18
     # via
     #   -r requirements/validation.txt
     #   django-clearcache
@@ -149,7 +149,7 @@ django-crum==0.7.9
     #   edx-django-utils
     #   edx-rbac
     #   edx-toggles
-django-debug-toolbar==4.4.6
+django-debug-toolbar==5.0.1
     # via -r requirements/dev.in
 django-dynamic-fixture==4.0.1
     # via -r requirements/validation.txt
@@ -369,7 +369,7 @@ mdurl==0.1.2
     #   markdown-it-py
 mock==5.1.0
     # via -r requirements/validation.txt
-more-itertools==10.5.0
+more-itertools==10.6.0
     # via
     #   -r requirements/validation.txt
     #   jaraco-classes
@@ -392,7 +392,7 @@ oauthlib==3.2.2
     #   getsmarter-api-clients
     #   requests-oauthlib
     #   social-auth-core
-openedx-events==9.15.0
+openedx-events==9.15.2
     # via
     #   -r requirements/validation.txt
     #   edx-event-bus-kafka
@@ -548,7 +548,7 @@ redis==5.2.1
     # via
     #   -r requirements/validation.txt
     #   openedx-ledger
-referencing==0.35.1
+referencing==0.36.1
     # via
     #   -r requirements/validation.txt
     #   jsonschema
@@ -573,7 +573,7 @@ requests-toolbelt==1.0.0
     # via
     #   -r requirements/validation.txt
     #   twine
-responses==0.25.5
+responses==0.25.6
     # via -r requirements/validation.txt
 rfc3986==2.0.0
     # via
@@ -656,6 +656,7 @@ typing-extensions==4.12.2
     #   django-test-migrations
     #   edx-opaque-keys
     #   faker
+    #   referencing
 uritemplate==4.1.1
     # via
     #   -r requirements/validation.txt
@@ -667,7 +668,7 @@ urllib3==2.2.3
     #   requests
     #   responses
     #   twine
-virtualenv==20.28.1
+virtualenv==20.29.1
     # via
     #   -r requirements/validation.txt
     #   tox
