@@ -82,11 +82,11 @@ colorama==0.4.6
     #   tox
 confluent-kafka[avro,schema-registry]==2.8.0
     # via -r requirements/validation.txt
-coverage[toml]==7.6.11
+coverage[toml]==7.6.12
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
-cryptography==44.0.0
+cryptography==44.0.1
     # via
     #   -r requirements/validation.txt
     #   pyjwt
@@ -96,7 +96,7 @@ ddt==1.7.2
     # via
     #   -r requirements/dev.in
     #   -r requirements/validation.txt
-defusedxml==0.8.0rc2
+defusedxml==0.7.1
     # via
     #   -r requirements/validation.txt
     #   python3-openid
@@ -158,7 +158,7 @@ django-extensions==3.2.3
     #   -r requirements/dev.in
     #   -r requirements/validation.txt
     #   openedx-ledger
-django-filter==24.3
+django-filter==25.1
     # via
     #   -r requirements/validation.txt
     #   openedx-ledger
@@ -252,15 +252,15 @@ edx-rbac==1.10.0
     # via
     #   -r requirements/validation.txt
     #   openedx-ledger
-edx-rest-api-client==6.0.0
+edx-rest-api-client==6.1.0
     # via -r requirements/validation.txt
-edx-toggles==5.2.0
+edx-toggles==5.3.0
     # via
     #   -r requirements/validation.txt
     #   edx-event-bus-kafka
 factory-boy==3.3.3
     # via -r requirements/validation.txt
-faker==35.2.0
+faker==36.1.1
     # via
     #   -r requirements/validation.txt
     #   factory-boy
@@ -349,7 +349,7 @@ keyring==25.6.0
     # via
     #   -r requirements/validation.txt
     #   twine
-lxml[html-clean,html_clean]==5.3.0
+lxml[html-clean,html_clean]==5.3.1
     # via
     #   edx-i18n-tools
     #   lxml-html-clean
@@ -396,7 +396,7 @@ oauthlib==3.2.2
     #   getsmarter-api-clients
     #   requests-oauthlib
     #   social-auth-core
-openedx-events==9.17.0
+openedx-events==9.18.1
     # via
     #   -r requirements/validation.txt
     #   edx-event-bus-kafka
@@ -439,7 +439,7 @@ ply==3.11
     #   djangoql
 polib==1.2.0
     # via edx-i18n-tools
-psutil==6.1.1
+psutil==7.0.0
     # via
     #   -r requirements/validation.txt
     #   edx-django-utils
@@ -487,7 +487,7 @@ pylint-plugin-utils==0.8.2
     #   pylint-django
 pymemcache==4.0.0
     # via -r requirements/validation.txt
-pymongo==4.11
+pymongo==4.11.1
     # via
     #   -r requirements/validation.txt
     #   edx-opaque-keys
@@ -511,12 +511,8 @@ pytest==8.3.4
     #   pytest-django
 pytest-cov==6.0.0
     # via -r requirements/validation.txt
-pytest-django==4.9.0
+pytest-django==4.10.0
     # via -r requirements/validation.txt
-python-dateutil==2.9.0.post0
-    # via
-    #   -r requirements/validation.txt
-    #   faker
 python-slugify==8.0.4
     # via
     #   -r requirements/validation.txt
@@ -609,7 +605,6 @@ six==1.17.0
     #   edx-django-release-util
     #   edx-lint
     #   edx-rbac
-    #   python-dateutil
 sniffio==1.3.1
     # via
     #   -r requirements/validation.txt
@@ -618,11 +613,11 @@ snowballstemmer==2.2.0
     # via
     #   -r requirements/validation.txt
     #   pydocstyle
-social-auth-app-django==5.4.2
+social-auth-app-django==5.4.3
     # via
     #   -r requirements/validation.txt
     #   edx-auth-backends
-social-auth-core==4.5.4
+social-auth-core==4.5.6
     # via
     #   -r requirements/validation.txt
     #   edx-auth-backends
@@ -656,8 +651,11 @@ typing-extensions==4.12.2
     #   anyio
     #   django-test-migrations
     #   edx-opaque-keys
-    #   faker
     #   referencing
+tzdata==2025.1
+    # via
+    #   -r requirements/validation.txt
+    #   faker
 uritemplate==4.1.1
     # via
     #   -r requirements/validation.txt
@@ -669,7 +667,7 @@ urllib3==2.2.3
     #   requests
     #   responses
     #   twine
-virtualenv==20.29.1
+virtualenv==20.29.2
     # via
     #   -r requirements/validation.txt
     #   tox
